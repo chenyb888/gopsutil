@@ -7,7 +7,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/shirou/gopsutil/v3/internal/common"
+	"github.com/chenyb888/gopsutil/v3/internal/common"
 )
 
 func skipIfNotImplementedErr(t *testing.T, err error) {

@@ -10,7 +10,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/shirou/gopsutil/v3/internal/common"
+	"github.com/chenyb888/gopsutil/v3/internal/common"
 )
 
 // TimesStat contains the amounts of time the CPU has spent performing different

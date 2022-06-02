@@ -8,7 +8,7 @@ import (
 	"fmt"
 
 	"github.com/power-devops/perfstat"
-	"github.com/shirou/gopsutil/v3/internal/common"
+	"github.com/chenyb888/gopsutil/v3/internal/common"
 )
 
 var FSType map[int]string

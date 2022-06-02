@@ -1,6 +1,6 @@
 # gopsutil: psutil for golang
 
-[![Test](https://github.com/shirou/gopsutil/actions/workflows/test.yml/badge.svg)](https://github.com/shirou/gopsutil/actions/workflows/test.yml) [![Coverage Status](https://coveralls.io/repos/github/shirou/gopsutil/badge.svg?branch=master)](https://coveralls.io/github/shirou/gopsutil?branch=master) [![Go Reference](https://pkg.go.dev/badge/github.com/shirou/gopsutil.svg)](https://pkg.go.dev/github.com/shirou/gopsutil)
+[![Test](https://github.com/chenyb888/gopsutil/actions/workflows/test.yml/badge.svg)](https://github.com/shirou/gopsutil/actions/workflows/test.yml) [![Coverage Status](https://coveralls.io/repos/github/shirou/gopsutil/badge.svg?branch=master)](https://coveralls.io/github/shirou/gopsutil?branch=master) [![Go Reference](https://pkg.go.dev/badge/github.com/shirou/gopsutil.svg)](https://pkg.go.dev/github.com/shirou/gopsutil)
 
 This is a port of psutil (https://github.com/giampaolo/psutil). The
 challenge is porting all psutil functions on some architectures.
@@ -52,8 +52,8 @@ package main
 import (
     "fmt"
 
-    "github.com/shirou/gopsutil/v3/mem"
-    // "github.com/shirou/gopsutil/mem"  // to use v2
+    "github.com/chenyb888/gopsutil/v3/mem"
+    // "github.com/chenyb888/gopsutil/mem"  // to use v2
 )
 
 func main() {
@@ -95,7 +95,7 @@ You can set an alternative location to `/proc/N/mountinfo` by setting the
 
 ## Documentation
 
-see http://godoc.org/github.com/shirou/gopsutil
+see http://godoc.org/github.com/chenyb888/gopsutil
 
 ## Requirements
 
